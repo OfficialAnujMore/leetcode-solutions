@@ -1,22 +1,30 @@
-"""
-Time complexity: O(n * k log k), where n is the number of strings and k is the maximum string length.
-
-Space complexity: O(n * k) for storing the grouped strings and keys.
-"""
-
-
 class Solution:
+
+    def getFreqString(self, word: str) -> str:
+        freq = [0] * 26
+
+        for char in word:
+            freq[ord(char) - ord("a")] += 1
+
+        frequency_string = []
+        ch = "a"
+
+        for count in freq:
+            frequency_string.append(ch)
+            frequency_string.append(str(count))
+            ch = chr(ord(ch) + 1)
+
+        return "".join(frequency_string)
+
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+        groups = {}
 
-        freq = {}
-        result = []
         for word in strs:
-            sorted_str = "".join(sorted(word))
-            if sorted_str not in freq:
-                freq[sorted_str] = [word]
-            else:
-                freq[sorted_str].append(word)
+            key = self.getFreqString(word)
 
-        for key in freq:
-            result.append(freq[key])
-        return result
+            if key not in groups:
+                groups[key] = [word]
+            else:
+                groups[key].append(word)
+
+        return list(groups.values())
