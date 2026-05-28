@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0383-ransom-note](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/0387-first-unique-character-in-a-string) |
 | [0451-sort-characters-by-frequency](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/0451-sort-characters-by-frequency) |
+| [1249-minimum-remove-to-make-valid-parentheses](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/1249-minimum-remove-to-make-valid-parentheses) |
 ## Hash Table
 |  |
 | ------- |
@@ -109,4 +110,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0198-house-robber](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/0198-house-robber) |
+## Stack
+|  |
+| ------- |
+| [1249-minimum-remove-to-make-valid-parentheses](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/1249-minimum-remove-to-make-valid-parentheses) |
 <!---LeetCode Topics End-->
