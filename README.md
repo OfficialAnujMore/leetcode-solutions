@@ -105,13 +105,19 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [0202-happy-number](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/0202-happy-number) |
 ## Dynamic Programming
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [0198-house-robber](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/0198-house-robber) |
 ## Stack
 |  |
 | ------- |
 | [1249-minimum-remove-to-make-valid-parentheses](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/1249-minimum-remove-to-make-valid-parentheses) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
