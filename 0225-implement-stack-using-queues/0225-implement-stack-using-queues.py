@@ -1,6 +1,11 @@
-'''
-Solution 1 - Using two stacks
-'''
+"""
+Short Intuition:
+This implements a Stack using a single Queue.
+The clever part is in pop(): to get the last element (stack behavior) from a queue (which normally gives you the first), you rotate everything backward. Move the first n-1 elements to the back, which pushes the last element to the front. Then pop it.
+
+Example: [1, 2, 3] → rotate → [2, 3, 1] → [3, 1, 2] → pop 3
+Key insight: LIFO from FIFO by strategic rotation.
+"""
 
 from collections import deque
 
@@ -8,26 +13,27 @@ from collections import deque
 class MyStack:
 
     def __init__(self):
-        self.q1 = deque([])
-        self.q2 = deque([])
+        self.q = deque([])
 
     def push(self, x: int) -> None:
-        self.q1.append(x)
+        self.q.append(x)
 
     def pop(self) -> int:
-        while len(self.q1) > 1:
-            self.q2.append(self.q1.popleft())
-        result = self.q1.popleft()
-        self.q1, self.q2 = self.q2, self.q1
-        return result
+
+        current_length = len(self.q)
+
+        for _ in range(current_length - 1):
+            ele = self.q.popleft()
+            self.q.append(ele)
+        return self.q.popleft()
 
     def top(self) -> int:
-        if self.empty():
+        if len(self.q) == 0:
             return -1
-        return self.q1[-1]
+        return self.q[-1]
 
     def empty(self) -> bool:
-        return len(self.q1) == 0
+        return len(self.q) == 0
 
 
 # Your MyStack object will be instantiated and called as such:
