@@ -1,37 +1,28 @@
-"""
-Time complexity - O(n*m)
-n length of root tree m being length of subroot
-"""
-
-
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
 class Solution:
     def isSubtree(self, root: Optional[TreeNode], subRoot: Optional[TreeNode]) -> bool:
 
-        def sameTree(root, subRoot):
+        def generatePreOrder(root, result):
+            if root is None:
+                result.append("#None")
+                return result
 
-            if root is None and subRoot is None:
-                return True
+            result.append("#" + str(root.val))
+            generatePreOrder(root.left, result)
+            generatePreOrder(root.right, result)
 
-            if root is None or subRoot is None:
-                return False
+            return result
 
-            if root.val != subRoot.val:
-                return False
+        rootPreOrder = generatePreOrder(root, [])
+        subRootPreOrder = generatePreOrder(subRoot, [])
 
-            return sameTree(root.left, subRoot.left) and sameTree(
-                root.right, subRoot.right
-            )
+        rootStr = ",".join(rootPreOrder)
+        subStr = ",".join(subRootPreOrder)
 
-        if root is None:
-            return False
-
-        if sameTree(root, subRoot):
-            return True
-
-        return self.isSubtree(root.left, subRoot) or self.isSubtree(root.right, subRoot)
+        return subStr in rootStr
