@@ -20,18 +20,19 @@ class Solution:
         queue = deque([root])
 
         while queue:
-            level = []
             length = len(queue)
+            previous = None
 
-            for index in range(length):
+            for _ in range(length):
                 node = queue.popleft()
-                level.append(node)
+
+                if previous:
+                    previous.next = node
+                previous = node
 
                 if node.left:
                     queue.append(node.left)
                 if node.right:
                     queue.append(node.right)
 
-                if index > 0:
-                    level[index - 1].next = level[index]
         return root
