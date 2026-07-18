@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/0001-two-sum) |
 | [0015-3sum](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/0015-3sum) |
+| [0048-rotate-image](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0152-maximum-product-subarray](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/0152-maximum-product-subarray) |
@@ -122,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/0002-add-two-numbers) |
+| [0048-rotate-image](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/0048-rotate-image) |
 | [0070-climbing-stairs](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [0202-happy-number](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/0202-happy-number) |
 | [0509-fibonacci-number](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/0509-fibonacci-number) |
@@ -255,4 +257,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0561-array-partition](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/0561-array-partition) |
+## Matrix
+|  |
+| ------- |
+| [0048-rotate-image](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/0048-rotate-image) |
 <!---LeetCode Topics End-->
