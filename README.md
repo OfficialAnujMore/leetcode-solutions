@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/0347-top-k-frequent-elements) |
 | [0560-subarray-sum-equals-k](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0561-array-partition](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/0561-array-partition) |
+| [0695-max-area-of-island](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/0695-max-area-of-island) |
 | [0746-min-cost-climbing-stairs](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/0746-min-cost-climbing-stairs) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/0974-subarray-sums-divisible-by-k) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
@@ -121,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/0695-max-area-of-island) |
 ## Math
 |  |
 | ------- |
@@ -214,6 +216,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/0572-subtree-of-another-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/0637-average-of-levels-in-binary-tree) |
+| [0695-max-area-of-island](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/0695-max-area-of-island) |
 ## Binary Tree
 |  |
 | ------- |
@@ -244,6 +247,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0200-number-of-islands](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/0200-number-of-islands) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/0637-average-of-levels-in-binary-tree) |
+| [0695-max-area-of-island](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/0695-max-area-of-island) |
 ## String Matching
 |  |
 | ------- |
@@ -270,4 +274,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0048-rotate-image](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/0048-rotate-image) |
 | [0200-number-of-islands](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/OfficialAnujMore/leetcode-solutions/tree/master/0695-max-area-of-island) |
 <!---LeetCode Topics End-->
