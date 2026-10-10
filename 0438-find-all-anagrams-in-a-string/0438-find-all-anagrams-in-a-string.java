@@ -2,19 +2,32 @@ class Solution {
     public List<Integer> findAnagrams(String s, String p) {
 
         List<Integer> result = new ArrayList<>();
+
         int n = s.length();
         int k = p.length();
 
-        char[] pArray = p.toCharArray();
-        Arrays.sort(pArray);
+        if (k > n)
+            return result;
 
-        for (int i = 0; i <= n - k; i++) {
-            String window = s.substring(i, i + k);
-            char[] windowArray = window.toCharArray();
-            Arrays.sort(windowArray);
+        int[] pFreq = new int[26];
+        int[] windowFreq = new int[26];
 
-            if (Arrays.equals(pArray, windowArray)) {
-                result.add(i);
+        for (int i = 0; i < k; i++) {
+            pFreq[p.charAt(i) - 'a']++;
+            windowFreq[s.charAt(i) - 'a']++;
+        }
+
+        if (Arrays.equals(pFreq, windowFreq)) {
+            result.add(0);
+        }
+
+        for (int right = k; right < n; right++) {
+            windowFreq[s.charAt(right) - 'a']++;
+
+            windowFreq[s.charAt(right - k) - 'a']--;
+
+            if (Arrays.equals(pFreq, windowFreq)) {
+                result.add(right - k + 1);
             }
         }
 
